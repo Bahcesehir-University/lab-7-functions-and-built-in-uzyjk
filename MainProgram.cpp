@@ -24,7 +24,7 @@ using namespace std;
 //  Goal: quickly recall variables, cin, cout, and arithmetic.
 // ============================================================
 
-double ctof(double c){
+double celsiusToFahrenheit(double c){
     return (c * 9.0 / 5.0) + 32;
 }
 
@@ -183,7 +183,7 @@ cout << "Area is = " << area << endl;
 cout << " Enter Celsius value for conveting fahrenheit" << endl;
 cin >> celsius;
 
-cout << ctof(celsius) << endl;
+cout << celsiusToFahrenheit(celsius) << endl;
 
 
 
